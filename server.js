@@ -22,6 +22,6 @@ app.post('/api/post/user', routes);
 
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log(`React App Listening at http://localhost:3000`);
+    console.log(`React App Listening at http://172.31.17.78:3000`);
 });
 module.exports = app;
